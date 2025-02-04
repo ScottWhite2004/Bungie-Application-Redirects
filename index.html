@@ -17,6 +17,7 @@
                     </div>
                     <div class="block">
                         <h2 class="subtitle">You have successfully authorised return to the application to use it<br>
+                            <p id = "url"></p>
                         </h2>
                     </div>
                 </div>
@@ -24,5 +25,13 @@
             </div>
         </div>
     </section>
+
+    <script>
+        var currentUrl = window.location.href;
+
+        document.getElementById("url").textContent = currentUrl
+    </script>            
 </body>
 </html>
+
+
