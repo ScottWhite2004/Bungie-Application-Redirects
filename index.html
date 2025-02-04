@@ -28,8 +28,9 @@
 
     <script>
         var currentUrl = window.location.search;
-
-        document.getElementById("url").textContent = currentUrl
+        var split[] = currentUrl.split("&")
+        
+        document.getElementById("url").textContent = split[0]
     </script>            
 </body>
 </html>
